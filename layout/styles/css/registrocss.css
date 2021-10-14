@@ -1,0 +1,165 @@
+/* Estilo de formulario de registro  */
+.form-registros {
+  background-color: #01172c;
+  height: 100%;
+  width: 1500px;
+  box-sizing: border-box;
+}
+
+.form-imagenes {
+    max-width: 150px;
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    margin-top: 30%;
+}
+
+.titulos {
+  font-size:12px; 
+  font-weight:bold; 
+  margin-bottom:5em; 
+  text-align:center;
+  font-family: sans-serif; 
+  color:#01172c;
+}
+
+.label__registro {
+  text-align: center;   
+  margin-left: 50px;
+  margin-right: 4%;
+  margin-top: 5%;
+  color: ;
+  font-size:20px!important;
+
+}
+.label__text {
+  margin-bottom: 5%;
+  margin-left: 50px;
+}
+.clase__contenedora1{
+    width: 100%;
+    justify-content: center;
+}
+.form-estilos {
+  width: 160%;
+  margin-left: 15%;
+  height: 35px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: black;
+  background-color: white;
+  border-radius: 12px
+}
+
+.form-estilo1 {
+  width: 80%;
+  margin-left: 15%;
+  height: 35px;
+  margin-top: 2%;
+  font-size: 12px!important;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.modal-content1 {
+  position: absolute;
+  background-color: #ffffff;
+  width: 900px;
+  height: 600px;
+}
+
+.btn-registro, .registro__formularios__envios{
+  background-color: #002450;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 15px;
+  text-align: center;
+  width: 30%;
+  text-align:center;
+}
+a.btn-registro:hover, a.btn-signin:hover {
+  cursor: pointer; 
+  background-color: #0288d1!important;
+  transition: background-color .5s; 
+  border-radius: .5em;
+  color: white!important;
+}  
+
+#registro{
+  border-bottom:4em;
+}
+
+.label__formula {
+  font-weight: 400;
+  font-size: 13px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  color: rgb(0, 58, 94)!important;
+  display: block;
+  font-weight: bold!important;
+}
+
+.buscador__realizadores{
+  width: 10%;
+    height: 35px;
+    margin-left: .5em;
+    border-radius: .5em;
+    background: #01579b00;
+    color: white;
+    cursor: pointer;
+}
+.icono__buscadores1{
+  position:relative; 
+    left: 10%;
+    top: 25%;
+    font-size: 130%;
+}
+
+.closeButton {
+    background-color: white;
+    width:26px;height:26px;
+    top: 9px;
+    right: 9px;
+    position:absolute;
+    cursor:pointer;
+}
+
+.container1
+{
+    background: white;
+    margin-left: 0px;
+
+}
+
+.modal-backdrop 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+
+}
+
+.claseterminos
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.terminosestilo
+{
+    cursor: pointer;
+    color: #212B5C;
+    font-size: 12px;
+    font-weight:bold;
+}

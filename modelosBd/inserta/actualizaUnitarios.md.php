@@ -1,0 +1,22 @@
+<?php
+
+	extract($_POST);
+
+
+	define('CONTROLADOR7', '../../conexion/');
+
+	require_once CONTROLADOR7.'conexion.php';
+
+	$conexionRecuperada= new conexion();
+ 	$conexionEstablecida=$conexionRecuperada->cConexion();
+
+ 	extract($_POST);
+
+ 	
+ 	$query="UPDATE pro_proyetosreferencias SET presupuesto='$presupuesto',presupuesto='$presupuestoLetras', presupuesto2='$presupuestoDos', presupuestoLetras2='$presupuestoLetrasDos', presupuesto3='$presupuestoTres', presupuestoLetras3='$presupuestoLetrasTres',presupuestoCuatro='$presupuestoCuatro',presupuestoLetrasCuatro='$presupuestoLetrasCuatro',mensajePlurianual='$mensajePlurianual',mensajePlurianualAnios='$mensajePlurianualAnios' WHERE codigoProyecto='$codigoProyecto';";
+	$resultado= $conexionEstablecida->exec($query);
+
+
+	$mensaje=1;
+	$jason['mensaje']=$mensaje;
+	echo json_encode($jason);
